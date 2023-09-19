@@ -59,7 +59,7 @@ def main():
 
     for seq_file in glob.glob("input_seq/*.txt"):
         target_pdbid = seq_file.split("/")[-1].split("_")[0]
-
+        
         os.system(f"mkdir -p {target_pdbid}/inputs/templates")
         hla_seq, pep_seq = get_seq(seq_file)
 
