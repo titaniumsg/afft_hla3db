@@ -6,7 +6,7 @@
 #SBATCH --mem=64G
 #SBATCH -o outfile.out
 #SBATCH --error=./error.out
-#export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/mnt/isilon/sgourakis_lab_storage/anaconda3/envs/alphafold/lib:/mnt/isilon/sgourakis_lab_storage/anaconda3/envs/alphafold/lib/python3.9/site-packages/tensorrt
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/mnt/isilon/sgourakis_lab_storage/anaconda3/envs/alphafold/lib:/mnt/isilon/sgourakis_lab_storage/anaconda3/envs/alphafold/lib/python3.9/site-packages/tensorrt
 
 source /mnt/isilon/sgourakis_lab_storage/anaconda3/bin/activate
 conda activate alphafold
