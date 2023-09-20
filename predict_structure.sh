@@ -11,6 +11,8 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/mnt/isilon/sgourakis_lab_storage/anacon
 source /mnt/isilon/sgourakis_lab_storage/anaconda3/bin/activate
 conda activate alphafold
 
+python initialize.py
+
 for targets in ./input_seq/*.txt; do
 	targname=$(echo ${targets} | cut -f 3 -d '/' | cut -f 1 -d '_')
 	echo ${targname}
