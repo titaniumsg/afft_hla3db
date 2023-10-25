@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH --job-name=test
-#SBATCH --time=6:00:00
+#SBATCH --time=10:00:00
 #SBATCH -p gpuq
 #SBATCH --gres=gpu:1
 #SBATCH --mem=64G
