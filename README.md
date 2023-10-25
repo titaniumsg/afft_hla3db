@@ -4,8 +4,8 @@
 
 
 ### Setup
-1. Create a new conda environment using `conda env create -f alphafold_env.yml`
-2. Download the model parameters from XXX and place them into the `params` folder
+1. Create a new conda environment using `conda env create -f alphafold_env.yml`.
+2. Download the model parameters from XXX and place them into the `params` folder.
 
 ### Structure prediction
 
