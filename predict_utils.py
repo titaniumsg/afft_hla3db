@@ -1,3 +1,4 @@
+# From https://github.com/phbradley/alphafold_finetune
 ######################################################################################88
 import sys
 import os

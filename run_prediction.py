@@ -1,3 +1,4 @@
+# From https://github.com/phbradley/alphafold_finetune
 ######################################################################################88
 
 FREDHUTCH_HACKS = False # silly stuff Phil added for running on Hutch servers
