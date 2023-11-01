@@ -1,6 +1,6 @@
 # AF-FT Trained on HLA3DB
 
-#### This repository is a _slight_ modification of the original [alphafold_finetune repo](https://github.com/phbradley/alphafold_finetune) presented in [Motmaen et al., PNAS 2023](doi.org/10.1073/pnas.2216697120). 
+#### This repository is a _slight_ modification of the original [alphafold_finetune repo](https://github.com/phbradley/alphafold_finetune) presented in [Motmaen et al., PNAS 2023](https://doi.org/10.1073/pnas.2216697120). 
 
 AlphaFold-FineTune (AF-FT) was retrained on peptide/HLA-I 9mer structures from [HLA3DB](https://hla3db.research.chop.edu/) with peptide sequence homologs removed during training. Retraining was conducted by Sreeja Kutti Kandy and the code to predict strucutres based on the saved model is provided after modification by Sagar Gupta. Please contact Dr. Nikolaos Sgourakis via [email](mailto:sgourakisn@chop.edu) if you have any questions/issues.
 
