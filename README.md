@@ -5,7 +5,7 @@
 AlphaFold-FineTune (AF-FT) was retrained on peptide/HLA-I 9mer structures from [HLA3DB](https://hla3db.research.chop.edu/) with peptide sequence homologs removed during training. Retraining was conducted by Sreeja Kutti Kandy and the code to predict strucutres based on the saved model is provided after modification by Sagar Gupta. Please contact Dr. Nikolaos Sgourakis via [email](mailto:sgourakisn@chop.edu) if you have any questions/issues.
 
 ### Setup
-1. Create a new conda environment using `conda env create -f alphafold_env.yml`.
+1. Create a new conda environment using `conda env create -f alphafold_env.yml`. If this does not work, you may have better luck with the conda installation instructions in [this repo](https://github.com/kalininalab/alphafold_non_docker).
 2. Download the model parameters from [OneDrive](https://1drv.ms/u/s!AiO4ndFz-lft5FTz1SKFgfI-f4Cx?e=BPt1QX) (350 MB) and place them into the `params` folder.
 
 ### Structure prediction
